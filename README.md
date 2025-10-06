@@ -22,13 +22,16 @@ The token metadata for Metaplex Metadata Schema is in the following format:
 
 ```json
 {
-  "name": "TOKEN_NAME", 
-  "symbol": "TOKEN_SYMBOL",
-  "uri": "TOKEN_URI",
-  "sellerFeeBasisPoints": 0,
-  "creators": null,
-  "collection": null,
-  "uses": null
+  {
+    "chainId": 101,
+    "address": "7kgHzSXvvddpfvxknzX8vXsYsfFRkFGFN5LZZbFrAKr",
+    "symbol": "BFLOKI",
+    "name": "BABYFLOKI",
+    "decimals": 6,
+    "logoURI": "https://www.canva.com/design/DAG1CVP0gsI/EWLiWNJZzjQD6OH-Gzoh6Q/view?utm_content=DAG1CVP0gsI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb643cd7661.png",
+    "tags": ["meme", "community", "bfloki"]
+}
+
 }
 ```
 
